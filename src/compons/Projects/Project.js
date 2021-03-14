@@ -10,7 +10,7 @@ const Project = ({project}) => {
     <Zoom>
       <article className="projects_single_project">
         <img src={img} alt="room " className="projects_single_project_img"/>
-        <a href='#' className="projects_single_project_icon">
+        <a href='https://unsplash.com/' target='_blank' rel='noreferrer' className="projects_single_project_icon">
         <FaPhotoVideo className='video'/>
         <FaLink className='link'/>
         </a> 
