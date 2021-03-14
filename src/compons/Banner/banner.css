@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+.banner{
+  flex: 1 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+  padding-bottom: 30vh;
+  font-weight: 700;
+  
+}
+.banner_container{  
+  margin-bottom: 5%
+}
+.banner_title{
+  font-size: 3rem;
+  letter-spacing: 1rem;
+  margin-bottom: 0.5rem;
+  color: navy;
+  font-family: 'Amatic SC', cursive;
+  
+}
+.Typewriter__cursor{
+  color:goldenrod;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-left: -4rem;
+  
+}
+
+.banner_cameraTypes{
+  color: #000;
+  margin-top: 1rem;
+
+}
+.banner_info{
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  margin-top: 2rem;
+  
+  
+}
+.fontWriter{
+  font-family: 'Orbitron', sans-serif;
+}
+
+span{
+padding: 2rem;
+
+}
+.camera{
+  font-size: 2.3rem;
+}
+
+@media screen and (min-width: 992px){
+  
+    .banner_title{
+      font-size: 4rem;
+      letter-spacing: 1rem;
+      margin-bottom: 0.5rem;
+      color: #ff7700;
+      
+    }
+  
+  }
+  
