@@ -1,7 +1,7 @@
 import React from "react";
 import { FaCameraRetro, FaCamera } from "react-icons/fa";
 import "./banner.css";
-import Flip from "react-reveal/Flip";
+import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
 import Typewriter from "typewriter-effect";
 
@@ -9,9 +9,9 @@ const Banner = () => {
   return (
     <section className="banner">
       <div className="banner_container">
-        <Flip right>
+        <Zoom>
           <h1 className="banner_title">Camera <FaCamera className="camera" /> Photos</h1>
-        </Flip>
+        </Zoom>
 
         {/* <h1 className="banner_cameraTypes">
           <span>
