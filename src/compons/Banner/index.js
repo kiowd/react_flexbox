@@ -9,11 +9,11 @@ const Banner = () => {
   return (
     <section className="banner">
       <div className="banner_container">
-        <Fade right>
-          <h1 className="banner_title">Camera Photos</h1>
-        </Fade>
+        <Flip right>
+          <h1 className="banner_title">Camera <FaCamera className="camera" /> Photos</h1>
+        </Flip>
 
-        <h1 className="banner_cameraTypes">
+        {/* <h1 className="banner_cameraTypes">
           <span>
             <FaCameraRetro className="camera" />
           </span>
@@ -21,7 +21,7 @@ const Banner = () => {
           <span>
             <FaCamera className="camera" />
           </span>
-        </h1>
+        </h1> */}
         <div className="banner_info">
           <Typewriter
             options={{

@@ -2,22 +2,23 @@ import React from "react";
 import { FaCameraRetro, FaCamera } from "react-icons/fa";
 import "./about.css";
 import Roll from "react-reveal/Roll";
-import { Link } from "react-router-dom";
-
+import Flip from "react-reveal/Flip";
 
 const About = () => {
   return (
     <section className="about">
       <div className="about_center">
-        <Roll>
+        
         <article className="about_img">
+        <Roll>
           <img
             src="https://images.unsplash.com/photo-1527935168229-c1cc0bdfa662?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzI4fHxjYW1lcmFzfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
             className="about_img_photo"
             alt='cameraes'
           />
+          </Roll>
         </article>
-        </Roll>
+        
         <Roll>
         <article className="about_info">
           <div className="about_info_container">

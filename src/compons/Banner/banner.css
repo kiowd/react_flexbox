@@ -10,7 +10,8 @@
   
 }
 .banner_container{  
-  margin-bottom: 5%
+  margin-bottom: 5%;
+  
 }
 .banner_title{
   font-size: 3rem;
@@ -42,6 +43,7 @@
 }
 .fontWriter{
   font-family: 'Orbitron', sans-serif;
+  font-size: 0.8rem;
 }
 
 span{
@@ -55,11 +57,15 @@ padding: 2rem;
 @media screen and (min-width: 992px){
   
     .banner_title{
-      font-size: 4rem;
+      font-size: 5rem;
       letter-spacing: 1rem;
       margin-bottom: 0.5rem;
       color: #ff7700;
       
+    }
+    .fontWriter{
+      font-size: 1.3rem;
+
     }
   
   }
